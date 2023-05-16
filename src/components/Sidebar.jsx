@@ -151,10 +151,10 @@ const Sidebar = ({
                                 gap="0.5rem"
                             >
                                 <Typography 
-                                    variant="h5"
+                                    variant="h4"
                                     fontWeight="bold"
                                 >
-                                    MCK DASHBOARD
+                                    TEFC Dashboard
                                 </Typography>
                             </Box>
                             {!isNonMobile && (
@@ -230,7 +230,7 @@ const Sidebar = ({
                         sx={{
                             color: theme.palette.secondary[100]
                         }}>
-                           {user.name}
+                            {user.name}
                         </Typography>
 
                         <Typography fontSize="0.8"
